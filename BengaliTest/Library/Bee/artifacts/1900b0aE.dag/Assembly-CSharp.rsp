@@ -353,7 +353,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Card.cs"
 "Assets/Scripts/CardManager.cs"
+"Assets/Scripts/Delegates.cs"
 "Assets/Scripts/DynamicGridLayout.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic
