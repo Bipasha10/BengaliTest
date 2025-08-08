@@ -354,10 +354,12 @@
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Card.cs"
 "Assets/Scripts/CardManager.cs"
+"Assets/Scripts/Constants.cs"
 "Assets/Scripts/Delegates.cs"
 "Assets/Scripts/DynamicGridLayout.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/SaveSystem.cs"
+"Assets/Scripts/SelectionScreen.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 

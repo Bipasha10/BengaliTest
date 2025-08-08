@@ -16,8 +16,10 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private DynamicGridLayout dynamicGridLayout;
 
-    void Start()
+    void OnEnable()
     {
+        rows = Constants.gridRow;
+        columns = Constants.gridCol;
         GenerateBoard();
     }
 

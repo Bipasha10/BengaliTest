@@ -18,4 +18,7 @@ public static class Delegates
 
     public delegate void GameOver(int score);
     public static GameOver OnGameOver;
+
+    public delegate void OpenGameScreen(int row, int col);
+    public static OpenGameScreen OnGameScreenOpened;
 }

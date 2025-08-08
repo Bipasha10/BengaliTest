@@ -12,11 +12,16 @@ public class DynamicGridLayout : MonoBehaviour
     private RectTransform rectTransform;
     private GridLayoutGroup gridLayout;
 
-    void Start()
+    private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         gridLayout = GetComponent<GridLayoutGroup>();
+    }
 
+    void OnEnable()
+    {
+        rows = Constants.gridRow;
+        columns = Constants.gridCol;
         ApplyGrid();
     }
 

@@ -11,6 +11,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreValue;
     [SerializeField] private TextMeshProUGUI totalScoreValue;
     [SerializeField] private GameObject gameOverScreen;
+
+    [SerializeField] private GameObject selectionScreen, gameScreen;
+
     private int matchVal, turnVal;
 
     private void ResetData()
@@ -20,6 +23,7 @@ public class UIManager : MonoBehaviour
 
     private void OnEnable()
     {
+        Delegates.OnGameScreenOpened += OpenGameScreen;
         Delegates.OnCardMatched += OnCardMatched;
         Delegates.OnCardTurned += OnCardTurned;
         Delegates.OnGameOver += OnGameOver;
@@ -27,9 +31,18 @@ public class UIManager : MonoBehaviour
 
     private void OnDisable()
     {
+        Delegates.OnGameScreenOpened -= OpenGameScreen;
         Delegates.OnCardMatched -= OnCardMatched;
         Delegates.OnCardTurned -= OnCardTurned;
         Delegates.OnGameOver -= OnGameOver;
+    }
+
+    private void OpenGameScreen(int row, int col)
+    {
+        Constants.gridRow = row;
+        Constants.gridCol= col;
+        gameScreen.SetActive(true);
+        selectionScreen.SetActive(false);
     }
 
     private void OnCardTurned()
