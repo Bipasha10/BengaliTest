@@ -29,7 +29,7 @@ public class AudioManager : MonoBehaviour
         PlayMismatch();
     }
 
-    private void OnGameOver()
+    private void OnGameOver(int score=0)
     {
         PlayGameOver();
     }

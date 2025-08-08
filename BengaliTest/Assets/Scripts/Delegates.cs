@@ -16,6 +16,6 @@ public static class Delegates
     public delegate void CardTurned();
     public static CardTurned OnCardTurned;
 
-    public delegate void GameOver();
+    public delegate void GameOver(int score);
     public static GameOver OnGameOver;
 }

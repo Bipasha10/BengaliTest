@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     private Card r1, r2;
     private int totalMatchingItem = 0;
+    private int score = 0;
 
     private void OnEnable()
     {
@@ -18,6 +19,11 @@ public class GameManager : MonoBehaviour
     {
         Delegates.OnBoardCreated -= OnBoardCreated;
         Delegates.OnCardFlipped -= OnCardFlipped;
+    }
+    
+    private void ResetData()
+    {
+        score = 0;
     }
 
     private void OnBoardCreated(int count)
@@ -51,6 +57,7 @@ public class GameManager : MonoBehaviour
             r1.Match();
             r2.Match();
             Delegates.OnCardMatched?.Invoke();
+            score += 10;
             CheckGameOver();
         }
         else
@@ -65,7 +72,7 @@ public class GameManager : MonoBehaviour
         totalMatchingItem--;
         if(totalMatchingItem <= 0)
         {
-            Delegates.OnGameOver?.Invoke();
+            Delegates.OnGameOver?.Invoke(score);
         }
     }
 }

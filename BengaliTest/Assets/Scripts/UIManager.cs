@@ -9,13 +9,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI matchValue;
     [SerializeField] private TextMeshProUGUI turnValue;
     [SerializeField] private TextMeshProUGUI scoreValue;
+    [SerializeField] private TextMeshProUGUI totalScoreValue;
     [SerializeField] private GameObject gameOverScreen;
     private int matchVal, turnVal;
-    private int score = 0;
 
     private void ResetData()
     {
-        matchVal = turnVal = score = 0;
+        matchVal = turnVal = 0;
     }
 
     private void OnEnable()
@@ -42,14 +42,15 @@ public class UIManager : MonoBehaviour
     {
         matchVal++;
         matchValue.text = matchVal.ToString();
-        score++;
     }
 
-    private void OnGameOver()
+    private void OnGameOver(int score)
     {
+        int prevScore = SaveSystem.instance.LoadScore();
+        int totalScore = prevScore + score;
+        SaveSystem.instance.SaveScore(totalScore);
         scoreValue.text = $"Current Score: {score}";
+        totalScoreValue.text = $"Total Score: {totalScore}";
         gameOverScreen.SetActive(true);
     }
-
-
 }
