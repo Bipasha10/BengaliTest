@@ -36,6 +36,7 @@ public class CardManager : MonoBehaviour
             ids.Add(randItem);
             ids.Add(randItem);
         }
+        Delegates.OnBoardCreated?.Invoke(count);
 
         ids = ids.OrderBy(x => Random.value).ToList();
 

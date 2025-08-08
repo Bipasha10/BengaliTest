@@ -34,7 +34,7 @@ public class Card : MonoBehaviour
         if (!isFlipped && !isMatched)
         {
             Flip();
-            Delegates.OnCardFlipped(this);
+            Delegates.OnCardFlipped?.Invoke(this);
         }
     }
 
