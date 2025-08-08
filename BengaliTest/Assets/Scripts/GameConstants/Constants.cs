@@ -7,4 +7,5 @@ public static class Constants
     public static int gridRow, gridCol;
     public static string cardFlipAnim = "CardFlip";
     public static string cardReverseFlipAnim = "CardReverseFlip";
+    public static string cardIdleAnim = "Idle";
 }

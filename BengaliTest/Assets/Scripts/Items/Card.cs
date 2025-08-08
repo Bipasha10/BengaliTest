@@ -10,12 +10,17 @@ public class Card : MonoBehaviour
     public Image image;
     public Animator cardAnim;
 
+    private Image cardImg;
+    [SerializeField]
+    private GameObject childItem;
     private bool isFlipped = false;
     private bool isMatched = false;
 
     private void Start()
     {
         ResetCard();
+        cardImg = GetComponent<Image>();
+        childItem = transform.GetChild(0).gameObject;
     }
 
     public void Init(int id, Sprite front)
@@ -50,6 +55,9 @@ public class Card : MonoBehaviour
     public void Match()
     {
         isMatched = true;
+        cardImg.enabled = false;
+        cardAnim.Play(Constants.cardIdleAnim);
+        childItem.SetActive(false);
     }
 
     public void Mismatch()
