@@ -1,0 +1,395 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1754657127993180, "dur": 440210, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657127994548, "dur": 25929, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657128020765, "dur": 402637, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657128423423, "dur": 9966, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657132688051, "dur": 1062462, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657132688296, "dur": 6320, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657132694619, "dur": 1042467, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657133737088, "dur": 13423, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657133751067, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1754657132727846, "dur":1371, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657132729227, "dur":157, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1754657132729406, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1754657132729430, "dur":598, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1754657132730071, "dur":738, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657132730809, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133707840, "dur":383, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708223, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708236, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708238, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708246, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708248, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708254, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708256, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708266, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708268, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708275, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708277, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708284, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708285, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708293, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708294, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708302, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708303, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708310, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708312, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708318, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708320, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708327, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708329, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708338, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708363, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133708386, "dur":2167, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1754657132731080, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657132731081, "dur":5433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657132736525, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1754657132736951, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657132736975, "dur":80258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657132817234, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657132817778, "dur":195788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133013567, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133013617, "dur":63732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133077350, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133077405, "dur":84477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133161883, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133161937, "dur":108465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133270403, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133270461, "dur":115356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133385818, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133385875, "dur":321891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1754657133707767, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1754657133707802, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1754657133707802, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132730969, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132730970, "dur":5534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132736512, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1754657132736795, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132736812, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest.exe" }}
+,{ "pid":12345, "tid":2, "ts":1754657132736826, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132736839, "dur":218165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657132955005, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657132955060, "dur":126233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133081294, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133081352, "dur":105047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133186401, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133186456, "dur":67877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133254334, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133254366, "dur":138269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133392637, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133392694, "dur":7387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133400083, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133400141, "dur":145103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1754657133545245, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1754657133545291, "dur":162557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132731059, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132731060, "dur":5471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132736532, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1754657132736675, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132736698, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1754657132736829, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132736850, "dur":71509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657132808360, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132808422, "dur":77912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657132886335, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132886388, "dur":69841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657132956231, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657132956282, "dur":145596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657133101880, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133101924, "dur":62023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657133163949, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133163998, "dur":275229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657133439228, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133439276, "dur":2215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657133441492, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133441540, "dur":87846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1754657133529387, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133529428, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1754657133529461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1754657133529470, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1754657133532620, "dur":175224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132730952, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132730953, "dur":5533, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736509, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736512, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736568, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736571, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736592, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736757, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736779, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736872, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132736888, "dur":94540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657132831430, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132831487, "dur":124046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657132955534, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657132955576, "dur":61719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133017296, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133017345, "dur":84265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133101611, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133101658, "dur":141800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133243459, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133243521, "dur":78514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133322037, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133322085, "dur":104969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133427056, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133427103, "dur":2064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133429168, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133429214, "dur":1984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133431199, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133431249, "dur":84816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1754657133516067, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133516104, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1754657133516141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133516152, "dur":9662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1754657133525842, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133525873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133525884, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133528157, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133528186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133528197, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133529956, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133529986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133529998, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1754657133532125, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1754657133532407, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1754657133532435, "dur":175402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132731055, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132731056, "dur":5462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736520, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736674, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736694, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736818, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736835, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1754657132736994, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132737012, "dur":77702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657132814716, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132814781, "dur":79758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657132894541, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657132894598, "dur":123703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133018302, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133018349, "dur":62942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133081293, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133081349, "dur":66665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133148015, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133148072, "dur":72101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133220174, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133220230, "dur":197817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133418048, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133418100, "dur":2359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133420460, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133420516, "dur":156280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1754657133576797, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1754657133576840, "dur":131011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657132731161, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657132731162, "dur":5350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657132736512, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1754657132736832, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657132736911, "dur":142981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1754657132879894, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657132879949, "dur":384087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1754657133264039, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657133264096, "dur":75028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1754657133339126, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657133339181, "dur":224251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1754657133563433, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1754657133563485, "dur":144356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132731240, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132731241, "dur":5285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132736529, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1754657132736771, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132736791, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1754657132736895, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132736956, "dur":128464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1754657132865422, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657132865480, "dur":360171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1754657133225652, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657133225723, "dur":81692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1754657133307417, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657133307465, "dur":322382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1754657133629848, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1754657133629885, "dur":77954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132731301, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132731302, "dur":5245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736548, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736762, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736786, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736888, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736907, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657132736989, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132737005, "dur":84737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657132821744, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657132821803, "dur":240574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133062378, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133062433, "dur":110730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133173164, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133173218, "dur":71213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133244433, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133244488, "dur":83915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133328404, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133328453, "dur":137833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133466288, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133466335, "dur":2168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468505, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468551, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468572, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468587, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468602, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468615, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468631, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468645, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468665, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468678, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468693, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468706, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468721, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468735, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468749, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468761, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468775, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468787, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468813, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468827, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468842, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468856, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468871, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468884, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468899, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468912, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468927, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468940, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468957, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468970, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133468987, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469004, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469019, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469031, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469046, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469059, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469077, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469090, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469104, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469116, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469132, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469145, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469159, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469171, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469186, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133469199, "dur":101515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133570725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1754657133570771, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1754657133571823, "dur":136011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132731344, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132731345, "dur":5189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736535, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736679, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736704, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736785, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736802, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736911, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132736961, "dur":93617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1754657132830580, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132830638, "dur":73475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1754657132904114, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657132904168, "dur":273903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1754657133178073, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657133178146, "dur":70299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1754657133248447, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657133248498, "dur":272959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1754657133521459, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657133521521, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1754657133521561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657133521574, "dur":6241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1754657133527843, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1754657133527918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1754657133527930, "dur":6517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1754657133534475, "dur":173389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132731407, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132731407, "dur":5114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736525, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736675, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736696, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736776, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736793, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736906, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132736962, "dur":155758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657132892721, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657132892774, "dur":117899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133010675, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133010730, "dur":109770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133120501, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133120556, "dur":133322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133253881, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133253938, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133253963, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133253977, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133254003, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133254016, "dur":68048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133322064, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133322090, "dur":83032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133405123, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133405177, "dur":2635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133407813, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133407869, "dur":106594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1754657133514465, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133514518, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1754657133514815, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133514842, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1754657133514893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133515914, "dur":9951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1754657133525889, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1754657133526199, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133526224, "dur":2872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1754657133529098, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133529149, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1754657133529199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133529211, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1754657133531038, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1754657133531067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1754657133531079, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1754657133533090, "dur":174746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132731497, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132731498, "dur":5010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132736512, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1754657132736967, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132736990, "dur":116284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657132853275, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132853335, "dur":138959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657132992295, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657132992347, "dur":130392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133122740, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133122795, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133122816, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133122831, "dur":77552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133200385, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133200438, "dur":62672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133263112, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133263166, "dur":108300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133371468, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133371523, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133371551, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133371567, "dur":210222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1754657133581790, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1754657133581810, "dur":126057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657132731582, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657132731582, "dur":4934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657132736517, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1754657132736768, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657132736788, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657132736956, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657132736976, "dur":336808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657133073786, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657133073843, "dur":68190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657133142034, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657133142089, "dur":94577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657133236668, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657133236717, "dur":95308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657133332028, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657133332079, "dur":239256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Bipasha/Unity/Bipasha/Check/BengaliTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1754657133571337, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1754657133571366, "dur":136477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1754657133712462, "dur":1885, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1754657133751154, "dur": 625, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1754657133751055, "dur": 760, "ph": "X", "name": "Write chrome-trace events", "args": {} },
