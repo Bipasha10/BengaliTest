@@ -8,6 +8,8 @@ public class Card : MonoBehaviour
     public Sprite frontSprite;
     public Sprite backSprite;
     public Image image;
+    public Animator cardAnim;
+
     private bool isFlipped = false;
     private bool isMatched = false;
 
@@ -42,6 +44,7 @@ public class Card : MonoBehaviour
     {
         isFlipped = true;
         image.sprite = frontSprite;
+        cardAnim.Play(Constants.cardFlipAnim);
     }
 
     public void Match()
@@ -51,6 +54,7 @@ public class Card : MonoBehaviour
 
     public void Mismatch()
     {
+        cardAnim.Play(Constants.cardReverseFlipAnim);
         isFlipped = false;
         image.sprite = backSprite;
     }

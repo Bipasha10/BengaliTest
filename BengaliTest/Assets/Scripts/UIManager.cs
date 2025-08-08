@@ -16,17 +16,13 @@ public class UIManager : MonoBehaviour
 
     private int matchVal, turnVal;
 
-    private void ResetData()
-    {
-        matchVal = turnVal = 0;
-    }
-
     private void OnEnable()
     {
         Delegates.OnGameScreenOpened += OpenGameScreen;
         Delegates.OnCardMatched += OnCardMatched;
         Delegates.OnCardTurned += OnCardTurned;
         Delegates.OnGameOver += OnGameOver;
+        ResetData();
     }
 
     private void OnDisable()
@@ -36,7 +32,10 @@ public class UIManager : MonoBehaviour
         Delegates.OnCardTurned -= OnCardTurned;
         Delegates.OnGameOver -= OnGameOver;
     }
-
+    private void ResetData()
+    {
+        matchVal = turnVal = 0;
+    }
     private void OpenGameScreen(int row, int col)
     {
         Constants.gridRow = row;
@@ -65,5 +64,12 @@ public class UIManager : MonoBehaviour
         scoreValue.text = $"Current Score: {score}";
         totalScoreValue.text = $"Total Score: {totalScore}";
         gameOverScreen.SetActive(true);
+    }
+
+    public void Replay()
+    {
+        gameScreen.SetActive(false);
+        gameOverScreen.SetActive(false);
+        selectionScreen.SetActive(true);
     }
 }

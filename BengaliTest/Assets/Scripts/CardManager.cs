@@ -42,6 +42,11 @@ public class CardManager : MonoBehaviour
 
         ids = ids.OrderBy(x => Random.value).ToList();
 
+        for(int i = 0; i < gridParent.childCount; i++)
+        {
+            Destroy(gridParent.GetChild(i).gameObject);
+        }
+
         for (int i = 0; i < ids.Count; i++)
         {
             Card card = Instantiate(cardPrefab, gridParent);

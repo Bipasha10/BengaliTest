@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     {
         Delegates.OnBoardCreated += OnBoardCreated;
         Delegates.OnCardFlipped += OnCardFlipped;
+        ResetData();
     }
     private void OnDisable()
     {
